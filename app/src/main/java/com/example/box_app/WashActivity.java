@@ -14,7 +14,6 @@ public class WashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_wash);
         Button washbackButton = findViewById(R.id.back_from_wash);
         washbackButton.setOnClickListener(new WashActivity.OnClickListener4());
-        // aaaaaaaaaaa
     }
     class OnClickListener4 implements View.OnClickListener{
             @Override
